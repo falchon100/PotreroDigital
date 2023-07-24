@@ -3,7 +3,7 @@ Copy code
 .hero-image {
   position: relative; /* Para que los elementos dentro del header se posicionen respecto a él */
   height: 500px; /* Altura deseada de la imagen */
-  background-image: url('ruta-de-tu-imagen.jpg'); /* Ruta de tu imagen de fondo */
+  background-image: url('https://img.freepik.com/foto-gratis/joven-atleta-muscular-practicando-dominadas-gimnasio-anillos_155003-35485.jpg?w=740&t=st=1690206929~exp=1690207529~hmac=308db210f8644272630830a52b784254e1f0950fe6372d8cecbbe6c2a91168af'); /* Ruta de tu imagen de fondo */
   background-size: cover; /* Para ajustar la imagen a la altura y anchura del contenedor */
   background-position: center; /* Para centrar la imagen */
 }
@@ -17,3 +17,4 @@ Copy code
   text-align: center; /* Para centrar el texto y botón */
   color: #fff; /* Color del texto */
 }
+
