@@ -4,35 +4,60 @@
   box-sizing: border-box; 
   font-family: Roboto;
 }
-
+/*------------------------------------------------ BARRA NAV ------------------------------------------- */
 nav{
 background-color: black;
 color: white;
 text-align: center;
+height: 80px;
 }
 
 nav .row {
   align-items: center;
+  height: 100%;
 }
 
-/* Barra */
 nav a {
   text-decoration: none;
   color: white;
   list-style: none;
+}
+nav ul{
+  display: flex;
 }
 
 nav li{
   padding: 0 5px;
   list-style: none;
 }
+/*------------------------------------------------/BARRA NAV ------------------------------------------- */
 
 
 /* --------------------------------------------ARTICLES -----------------------------------------*/
+.Art{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 5% 0 5%;
+}
+.Art:nth-child(even){   
+background-color: aquamarine;
+justify-content: end;
+}
+/* -------------------------------------------- /ARTICLES -----------------------------------------*/
+
+.hero-content{
+  background-color: rgb(107, 107, 145);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
-/* FOOTER */
+/*------------------------------------------------ FOOTER------------------------------------------- */
 
 .footer{
   display: flex;
@@ -48,3 +73,4 @@ nav li{
 .footer_texto{
   font-style: oblique;
 }
+/*------------------------------------------------ /FOOTER------------------------------------------- */
