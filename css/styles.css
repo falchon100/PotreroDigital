@@ -1,9 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Ajustar el modelo de caja a border-box (opcional) */
+  box-sizing: border-box; 
+  font-family: Roboto;
 }
 
+nav{
+background-color: black;
+color: white;
+text-align: center;
+}
+
+nav .row {
+  align-items: center;
+}
 
 /* Barra */
 nav a {
@@ -17,6 +27,24 @@ nav li{
   list-style: none;
 }
 
-.Bar{
-  justify-content: space-around;
+
+/* --------------------------------------------ARTICLES -----------------------------------------*/
+
+
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer_titulos{
+  font-weight: bold;
+}
+
+.footer_texto{
+  font-style: oblique;
 }
