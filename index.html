@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3147ed9d57.js" crossorigin="anonymous"></script>
     <title>Inicio</title>
 </head>
 <body>
@@ -12,22 +13,26 @@
         <!-- Barra de navegacion que uso en todas las vistas -->
         <nav class=" pt-2 container-fluid">
           <div class="row container-fluid">
-            <a class="col-12 col-md-6">Mi Logo</a>
+            <div>
+              <i class="fa-duotone fa-dumbbell"></i>
+              <a class="col-12 col-md-6">Mi Logo</a>
+                <i class="fa-solid fa-user"></i>
+            </div>
               <ul class="col-12 col-md-6   flex-md-row flex-column">
                 <li>
                   <a  href="#">Inicio</a>
                 </li>
                 <li>
-                  <a href="./views/actividades.html">Actividades</a>
+                  <a href="./public/views/actividades.html">Actividades</a>
                 </li>
                 <li>
-                  <a href="./views/nosotros.html">Nosotros</a>
+                  <a href="./public/views/nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                  <a  href="./views//anotate.html">Anotate</a>
+                  <a  href="./public/views/anotate.html">Anotate</a>
                 </li>
                 <li>
-                  <a  href="./views/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                  <a  href="./public/views/preguntas_frecuentes.html">Preguntas Frecuentes</a>
                 </li>
               </ul>
           </div>
@@ -40,7 +45,7 @@
           <h1>Mira nuestras Actividades</h1>
           <div>
             <p>Busca la actividad que se adapte a vos</p>
-            <a href="./views/actividades.html" class="btn btn-dark">Conocenos</a>
+            <a href="./public/views/actividades.html" class="btn btn-dark">Conocenos</a>
           </div>
         </div>
       </header>
@@ -50,7 +55,7 @@
     </main>
     <aside class="d-flex flex-column align-items-center aside_anotate">
       <h2 class="mb-5">Comenza hoy a entrenar con nosotros</h2>
-      <a class="btn btn-dark" href="./anotate.html">Anotate</a>
+      <a class="btn btn-dark" href="./public/anotate.html">Anotate</a>
     </aside>
     <article class="Art d-flex">
       <div class="Art_box">
@@ -81,22 +86,25 @@
     </article>
   
     <footer class="footer container-fluid text-center pt-2">
-      <div class="row container-fluid">
+      <div class="row container-fluid pb-3">
         <div class="col-12  col-md-4">
           <p class="footer_titulos">Horarios</p>
           <p class="footer_texto">Lunes a viernes  7 a 21 </p>
           <p class="footer_texto">Sabados 7 a 13</p>
         </div>
           <div class="col-12 col-md-4">
+            <hr class="d-md-none">
             <p class="footer_titulos">contacto</p>
             <p class="footer_texto">Telefono 493-3243</p>
             <p class="footer_texto">Mar del Plata</p>
             <p class="footer_texto">direccion</p>    
           </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-2 d-flex flex-column">
+          <hr class="d-md-none">
           <p class="footer_titulos">Redes Sociales</p>
-          <a href="">facebook</a>
-          <a href="">Instagram </a>
+          <a href="https://www.facebook.com/">facebook </a><i class="fa-brands fa-facebook"></i>
+          <a href="https://www.instagram.com/">Instagram </a><i class="fa-brands fa-instagram"></i>
+          <a href="https://web.whatsapp.com/" >Whatsap </a><i class="fa-brands fa-whatsapp"></i>
         </div >
       </div>
       </footer>

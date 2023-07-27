@@ -75,6 +75,15 @@ text-align: center;
   justify-content: space-between;
 }
 
+.footer  a{
+color: white;
+text-decoration: none;
+}
+.footer  a span{
+  color: green;
+  text-decoration: none;
+  }
+
 .footer_titulos{
   font-weight: bold;
 }
@@ -82,4 +91,6 @@ text-align: center;
 .footer_texto{
   font-style: oblique;
 }
+
+
 /*------------------------------------------------ /FOOTER------------------------------------------- */
