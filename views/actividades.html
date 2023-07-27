@@ -3,38 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Actividades</title>
 </head>
 <body>
     <header>
-        <h1>Actividades</h1>  
+
                 <!-- Barra de navegacion que uso en todas las vistas -->
-                <nav>
-                    <a >Mi Logo</a>
-                    <ul>
+                <nav class=" pt-2 container-fluid">
+                  <div class="row container-fluid">
+                    <a class="col-12 col-md-6">Mi Logo</a>
+                      <ul class="col-12 col-md-6   flex-md-row flex-column">
                         <li>
-                          <a  href="../index.html">Inicio</a>
+                          <a  href="#">Inicio</a>
                         </li>
                         <li>
-                          <a href="./nosotros.html">Nosotros</a>
+                          <a href="./views/actividades.html">Actividades</a>
                         </li>
                         <li>
-                          <a  href="./anotate.html">Anotate</a>
+                          <a href="./views/nosotros.html">Nosotros</a>
                         </li>
                         <li>
-                            <a  href="./preguntas_frecuentes.html">Anotate</a>
-                          </li>
+                          <a  href="./views//anotate.html">Anotate</a>
+                        </li>
+                        <li>
+                          <a  href="./views/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
                       </ul>
-                  </nav>
-                  <!-- Imagen Hero -->
-                  <div class="hero-content">
-                    <h1>Título Impactante</h1>
-                    <p>Texto descriptivo sobre la página</p>
-                    <a href="#" class="btn btn-primary">Botón CTA</a>
                   </div>
+                </nav>
+                <h1>Actividades</h1>  
     </header>
+    <main>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner container-fluid">
+          <div class="carousel-item active">
+            <img src="https://fhinstitute.com/wp-content/uploads/2023/02/5-razones-por-las-que-el-levantamiento-de-pesas-es-beneficioso-para-las-mujeres-scaled.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/fotos-premium/hombres-trabajando-gimnasio-haciendo-ejercicios-movilidad-cadera-pilates_126745-3356.jpg?w=2000" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.sport.es/labolsadelcorredor/wp-content/uploads/2018/10/spinning-portada-1280x720.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
     <footer>
       <div>
         <div>
@@ -46,5 +69,6 @@
         <p>direccion</p>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
 </body>
 </html>

@@ -9,7 +9,7 @@ nav{
 background-color: black;
 color: white;
 text-align: center;
-height: 80px;
+height: auto;
 }
 
 nav .row {
@@ -55,7 +55,16 @@ justify-content: end;
   justify-content: center;
 }
 
+/*------------------------------------------------ ASIDE ANOTATE------------------------------------------- */
+.aside_anotate{
+height: 300px;
+display: flex;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
 
+/*------------------------------------------------/ ASIDE ANOTATE------------------------------------------- */
 
 /*------------------------------------------------ FOOTER------------------------------------------- */
 
