@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box; 
   font-family: Roboto;
+  background-color: rgb(red, green, blue);
+}
+body{
+  background: rgb(186,185,195);
+background: linear-gradient(0deg, rgba(186,185,195,0.4234068627450981) 0%, rgba(171,171,175,0.3393732492997199) 87%);
 }
 /*------------------------------------------------ BARRA NAV ------------------------------------------- */
 nav{
@@ -65,6 +70,56 @@ text-align: center;
 }
 
 /*------------------------------------------------/ ASIDE ANOTATE------------------------------------------- */
+
+
+/*------------------------------------------------ ACTIVIDADES------------------------------------------- */
+.Act{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 5% 0 5%;
+}
+.Act:nth-child(even){   
+justify-content: end;
+}
+
+
+.crossfit{
+background-image: url('../img/pexels-binyamin-mellish-17840.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+height:350px;
+}
+.spinning{
+  background-image: url('../img/spinning.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:350px;
+}
+.yoga{
+  background-image: url('../img/pexels-elina-fairytale-3822141.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:350px;
+}
+.gym{
+  background-image: url('../img/hombre-incognito-construyendo-biceps-barra.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:350px;
+}
+
+
+/*------------------------------------------------ /ACTIVIDADES------------------------------------------- */
 
 /*------------------------------------------------ FOOTER------------------------------------------- */
 
