@@ -13,8 +13,8 @@
     <!-- Barra de navegacion que uso en todas las vistas -->
     <nav class=" pt-2 container-fluid">
       <div class="row container-fluid">
-        <a class="col-12 col-md-6">Mi Logo</a>
-          <ul class="col-12 col-md-6   flex-md-row flex-column">
+        <a href="../../index.html" class="col-12 col-md-6"><img src="../img/icono.png" width="200px" alt="Logo SportClub"></a>
+          <ul class="col-12 col-md-6 flex-md-row flex-column">
             <li>
               <a  href="../../index.html">Inicio</a>
             </li>
@@ -27,54 +27,47 @@
             <li>
               <a  href="./anotate.html">Anotate</a>
             </li>
-            <li>
-              <a  href="./preguntas_frecuentes.html">Preguntas Frecuentes</a>
-            </li>
           </ul>
       </div>
     </nav>
-    <h1>Anotate</h1>  
+    <div class="titulos2">
+      <h1 class="titulo">Anotate</h1> 
+      <h5>No esperes al verano para ejercitarte!</h5> 
+    </div>
+    
 </header>
-<main>
-  <form action="procesar_inscripcion.php" method="POST">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
-    <br>
-    
-    <label for="apellido">Apellido:</label>
-    <input type="text" id="apellido" name="apellido" required>
-    <br>
-    
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" required>
-    <br>
-    
-    <label for="correo">Correo electrónico:</label>
-    <input type="email" id="correo" name="correo" required>
-    <br>
-    
-    <label for="telefono">Teléfono:</label>
-    <input type="tel" id="telefono" name="telefono" required>
-    <br>
-    
-    <label for="actividad">Actividad que te interesa:</label>
-    <select id="actividad" name="actividad" required>
-        <option value="Crossfit">Crossfit</option>
-        <option value="Gym">Gym</option>
-        <option value="yoga">Yoga</option>
-        <option value="yoga">Spinning</option>
-
-        <!-- Agrega más opciones según las actividades que ofrezca el gimnasio -->
-    </select>
-    <br>
-    
-    <label for="objetivo">Objetivo:</label>
-    <textarea id="objetivo" name="objetivo" rows="4" cols="50" required></textarea>
-    <br>
-    
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Restablecer">
-</form>
+<main class="d-flex container-fluid mb-5 ">
+  <div class="container-fluid mb-5 row flex-lg-row flex-sm-column">
+    <div class="col-lg-6 bg-danger form_imagen">
+    </div>
+    <div class="col-lg-6 formulario ">
+      <p class="text-center form__title">Completá el formulario y nos pondremos en contacto</p>
+      <form action="anotate.html" class="form-group"  method="POST">
+        <label for="nombre">Nombre:</label>
+        <input class="form-control" type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input class="form-control" type="text" id="apellido" name="apellido" required>
+        <label for="edad">Edad:</label>
+        <input class="form-control" type="number" id="edad" name="edad" required>
+        <label for="correo">Correo:</label>
+        <input class="form-control" type="email" id="correo" name="correo" required>
+        <label for="telefono">Teléfono:</label>
+        <input class="form-control" type="tel" id="telefono" name="telefono" required>
+        <label for="actividad">Actividad que te interesa:</label>
+        <select id="actividad" name="actividad" required>
+            <option value="Crossfit">Crossfit</option>
+            <option value="Gym">Gym</option>
+            <option value="yoga">Yoga</option>
+            <option value="yoga">Spinning</option>
+        </select>
+        <label for="objetivo">Objetivo:</label>
+        <textarea id="objetivo" class="form-control" name="objetivo" rows="4" cols="20" required></textarea>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Enviar">
+        <input class="btn btn-danger" type="reset" value="Restablecer">
+    </form>
+    </div>
+</div>
 </main>
 
 <footer class="footer container-fluid text-center pt-2">

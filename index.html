@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3147ed9d57.js" crossorigin="anonymous"></script>
     <title>Inicio</title>
@@ -13,7 +14,7 @@
         <!-- Barra de navegacion que uso en todas las vistas -->
         <nav class=" pt-2 container-fluid">
           <div class="row container-fluid">
-              <a class="col-12 col-md-6">Mi Logo</a>
+              <a href="./index.html" class="col-12 col-md-6"><img src="./public/img/icono.png" width="200px" alt="Logo SportClub"></a>
               <ul class="col-12 col-md-6   flex-md-row flex-column">
                 <li>
                   <a  href="#">Inicio</a>
@@ -27,18 +28,14 @@
                 <li>
                   <a  href="./public/views/anotate.html">Anotate</a>
                 </li>
-                <li>
-                  <a  href="./public/views/preguntas_frecuentes.html">Preguntas Frecuentes</a>
-                </li>
               </ul>
           </div>
         </nav>
 
-<p>prueba</p>
 
         <!-- Imagen Hero -->
         <div class="hero-content container-fluid text-center">
-          <h1>Mira nuestras Actividades</h1>
+          <h1 class="titulo">Mira nuestras Actividades</h1>
           <div>
             <p>Busca la actividad que se adapte a vos</p>
             <a href="./public/views/actividades.html" class="btn btn-dark">Conocenos</a>
@@ -50,12 +47,49 @@
 
     </main>
     <aside class="d-flex flex-column align-items-center aside_anotate">
-      <h2 class="mb-5">Comenza hoy a entrenar con nosotros</h2>
-      <a class="btn btn-dark" href="./public/anotate.html">Anotate</a>
+      <h2 class="titulo" class="mb-5">Comenza hoy a entrenar con nosotros</h2>
+      <a class="btn btn-dark mt-5" href="./public/anotate.html">Anotate</a>
     </aside>
-    <article class="Art d-flex">
+
+    <section class="container mb-5">
+      <div class="row mx-auto justify-content-center">
+        <div class="col-12  col-md-2 sec_inicio">
+          <span> <i class="fa-solid fa-dumbbell"></i></span>
+          <h5>Motivate </h5>
+          <p>Entrena de 3 a 5 dias a la semana</p>
+          <div>
+          </div>
+        </div>
+        <div class="col-12  col-md-2 sec_inicio">
+          <span><i class="fa-solid fa-heart-pulse"></i></span>
+          <h5>Mejora tu  salud y tu cuerpo</h5>
+          <p>Alimentate bien no saltees ninguna comida</p>
+          <div>
+          </div>
+        </div>
+        <div class="col-12  col-md-2 sec_inicio">
+          <span><i class="fa-regular fa-face-smile-beam"></i></span>
+          <h5>Sentité bien</h5>
+          <p>Haciendo ejercicio te sentiras mejor en tu dia</p>
+          <div>
+          </div>
+        </div>
+        <div class="col-12  col-md-2 sec_inicio">
+          <span><i class="fa-solid fa-people-robbery"></i></span>
+          <h5>Conocé gente</h5>
+          <p>Relaciona con gente con los mismos objetivos</p>
+          <div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- <article class="Art d-flex">
       <div class="Art_box">
-        <h2>Motivación: Mejor versión de tu cuerpo</h2>
+        <h2>Motivate, lográ versión de tu cuerpo</h2>
         <p>En nuestro gimnasio, la motivación es el corazón de todo lo que hacemos...</p>
       </div>
     </article>
@@ -72,14 +106,8 @@
         <h2>Estar a gusto con el lugar que vas a querer volver</h2>
         <p>Queremos que te sientas como en casa cada vez que entres a nuestro gimnasio...</p>
       </div>
-    </article>
+    </article> -->
 
-    <article class="Art d-flex">
-      <div class="Art_box">
-        <h2>Estar a gusto con el lugar que vas a querer volver</h2>
-        <p>Queremos que te sientas como en casa cada vez que entres a nuestro gimnasio...</p>
-      </div>
-    </article>
   
     <footer class="footer container-fluid text-center pt-2">
       <div class="row container-fluid pb-3">
